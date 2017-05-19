@@ -5,3 +5,29 @@
   background-color: black;
   opacity: 0.9;
 }
+
+header {
+  display: fixed;
+  border-bottom: 1px solid seashell;
+  padding: 0 10px;
+  height: 69px;
+  /*min-width: */
+}
+
+div.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img.logo {
+  height: 50px;
+}
+
+nav {
+
+}
+
+nav.a {
+
+}
