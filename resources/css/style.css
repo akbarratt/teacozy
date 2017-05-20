@@ -20,17 +20,22 @@ h4 {
 }
 
 header {
-  display: fixed;
+  position: fixed;
   border-bottom: 1px solid seashell;
-  padding: 0 10px;
+  padding-left: 10px;
+  padding-right: 50px;
   height: 69px;
+  width: 100%;
   min-width: 550px;
-}
-
-div.header {
+  z-index: 5;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  top: 0;
+}
+
+div.header {
+
 }
 
 img.logo {
@@ -38,13 +43,16 @@ img.logo {
 }
 
 nav a {
-  padding: 0 10px
+  padding: 0 30px
 }
 
 div.content {
-  display: flex;
   align-items: center;
   flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 69px;
+  width: 100%;
 }
 
 section#mission {
@@ -131,11 +139,7 @@ section.address {
 }
 
 footer {
-  margin: 20px;
-  display: flex;
-}
-
-
-span.copyright {
+  margin: 75px 0 0 20px;
+  width: 100%;
   text-align: left;
 }
