@@ -35,7 +35,7 @@ div.content {
   flex-direction: column;
 }
 
-section.mission {
+section#mission {
   height: 700px;
   max-width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
@@ -45,10 +45,11 @@ section.mission {
   margin-bottom: 50px;
 }
 
-section.totm {
+section#totm {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 div.teas {
@@ -71,4 +72,39 @@ div.teabox img {
 
 div.teabox h4 {
   margin: 10px;
+}
+
+section#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+div.locheading {
+  background: none;
+}
+
+div.locheading h2 {
+  background: none;
+}
+
+div.locboxes {
+  display: flex;
+  justify-content: center;
+  background: none;
+}
+
+div.locbox {
+  width: 300px;
+  line-height: 2.5;
+  padding: 10px 0;
+  margin: 0 40px;
+}
+
+div.locbox h3 {
+  margin: 0;
 }
