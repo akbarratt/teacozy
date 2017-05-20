@@ -108,3 +108,18 @@ div.locbox {
 div.locbox h3 {
   margin: 0;
 }
+
+section.address {
+  height: 200px;
+  margin: 20px;
+}
+
+footer {
+  margin: 20px;
+  display: flex;
+}
+
+
+span.copyright {
+  text-align: left;
+}
