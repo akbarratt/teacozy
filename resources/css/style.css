@@ -46,8 +46,7 @@ div.content {
   align-items: center;
   flex-direction: column;
   display: flex;
-  position: absolute;
-  top: 69px;
+  padding-top: 69px;
   width: 100%;
 }
 
@@ -71,7 +70,7 @@ section#totm {
   margin-bottom: 100px;
 }
 
-div.teas {
+.teas {
   display: flex;
   width: 1000px;
   height: 500px;
@@ -80,16 +79,16 @@ div.teas {
   flex-wrap: wrap;
 }
 
-div.teabox {
+.teabox {
   margin: 15px;
 }
 
-div.teabox img {
+.teabox img {
   height: 200px;
   width: 300px;
 }
 
-div.teabox h4 {
+.teabox h4 {
   margin: 10px;
 }
 
@@ -129,13 +128,10 @@ div.locbox h3 {
 }
 
 section.address {
-  height: 200px;
   line-height: 1.5;
-  margin: 0;
 }
 
 footer {
-  margin: 75px 0 0 20px;
   width: 100%;
   text-align: left;
 }
